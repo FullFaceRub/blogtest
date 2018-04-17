@@ -1,0 +1,156 @@
+.mainheader {
+  width: 100%;
+  background: lightcoral;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  align-items: center;
+  box-shadow: 0px 0px 14px 3px darkgray;
+}
+
+.logo {
+  font-size: 30px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.mainbody {
+  padding: 25px;
+}
+
+.homebody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.posttile {
+  background: white;
+  box-shadow: 5px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  width: 30%;
+  margin: 10px;
+  box-shadow: 0px 0px 14px 3px silver;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.posttilebody {
+  margin-left: 10px;
+}
+
+.posttile h1 {
+  font-weight: bold;
+}
+
+.homebody a {
+  color: black;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.homebody a:hover {
+  text-decoration: underline;
+}
+
+.postbody {
+  background: white;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 14px 3px silver;
+  border-radius: 3px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.postbody h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.postbody p {
+  margin-top: 25px;
+}
+
+.postbody a {
+  color: black;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.postbody h2 {
+  margin-top: 25px;
+}
+
+.postbody a:hover {
+  text-decoration: underline;
+}
+
+.postImg {
+  width: 300px;
+}
+
+.commenttile {
+  width: 60%;
+}
+
+.commenttile h2 {
+  font-weight: bold;
+}
+
+.inputfield {
+  margin-top: 10px;
+}
+
+.inputfield input {
+  width: 200px;
+}
+
+.postbody button {
+  background: lightcoral;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 25px;
+  margin-top: 25px;
+  border: solid;
+  border-width: 1px;
+  border-color: white;
+  transition: .5s;
+}
+
+.postbody button:hover {
+  border-color: coral;
+}

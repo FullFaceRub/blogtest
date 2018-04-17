@@ -6,9 +6,9 @@ class Header extends Component {
     render(){
         return(
             <div className="mainheader">
-                <div className="logo">blogtest</div>
+                <div className="logo"><Link to='/'>blogtest</Link></div>
                 <nav className="navbar"> 
-                    <Link to='/home'>Home</Link>
+                    <Link to='/'>Home</Link>
                     <Link to='/newpost'>New Post</Link>
                 </nav>
             </div>

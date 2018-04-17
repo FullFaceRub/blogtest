@@ -9,8 +9,8 @@ import Post from './components/Post';
 export default (
     <Switch>
         <Route exact path='/' component={Home}/>
-        <Route path='/author' component={Author}/>
+        <Route path='/author/:author' component={Author}/>
         <Route path='/newpost' component={NewPost}/>
-        <Route exact distinct path='/post/:post' component={Post}/>
+        <Route exact distinct path='/posts/:post' component={Post}/>
     </Switch>
 )
