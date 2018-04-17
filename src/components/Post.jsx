@@ -86,6 +86,7 @@ class Post extends Component {
                 <h1>{post.title}</h1>
                 <Link to={`/author/${this.state.author.id}`}><h2>By {this.state.author.name}</h2></Link>
                 <p>{post.body}</p>
+                <h1>Leave a Comment</h1>
                 <div className="inputfield">
                     Comment Title: <input type="text" onChange={e=>this.handleTitle(e.target.value)}/>
                 </div>
