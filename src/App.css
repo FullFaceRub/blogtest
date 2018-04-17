@@ -138,7 +138,7 @@
   width: 200px;
 }
 
-.postbody button {
+button {
   background: lightcoral;
   color: white;
   padding: 15px;
@@ -151,6 +151,6 @@
   transition: .5s;
 }
 
-.postbody button:hover {
+button:hover {
   border-color: coral;
 }
